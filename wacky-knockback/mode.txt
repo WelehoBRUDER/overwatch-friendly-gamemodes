@@ -1,0 +1,116 @@
+settings
+{
+	main
+	{
+		Mode Name: "Wacky Knockback DM"
+	}
+
+	modes
+	{
+		Assault
+		{
+			enabled maps
+			{
+			}
+		}
+
+		Control
+		{
+			enabled maps
+			{
+			}
+		}
+
+		Deathmatch
+		{
+			Game Length In Minutes: 15
+			Score To Win: 50
+
+			enabled maps
+			{
+				Château Guillard 972777519512063901
+				Château Guillard Halloween 972777519512063901
+				Ilios Ruins 972777519512063901
+				Lijiang Garden 972777519512063901
+			}
+		}
+
+		Escort
+		{
+			enabled maps
+			{
+			}
+		}
+
+		Hybrid
+		{
+			enabled maps
+			{
+			}
+		}
+
+		General
+		{
+			Allow Hero Switching: Off
+			Limit Roles: 2 Of Each Role Per Team
+			Respawn As Random Hero: On
+		}
+	}
+
+	heroes
+	{
+		Team FFA
+		{
+			Jump Vertical Speed: 110%
+			Movement Speed: 110%
+			Ultimate Duration: 200%
+		}
+
+		General
+		{
+			Ability Cooldown Time: 50%
+			Damage Dealt: 10%
+			Damage Received: 10%
+			Primary Fire: Off
+			Ultimate Generation: 200%
+
+			Ashe
+			{
+				Coach Gun Knockback Scalar Enemy: 200%
+				Coach Gun Knockback Scalar Self: 200%
+			}
+
+			Brigitte
+			{
+				Shield Bash Knockback Scalar: 200%
+				Whip Shot Knockback Scalar: 200%
+			}
+
+			Doomfist
+			{
+				Meteor Strike Knockback Scalar: 200%
+				Rocket Punch Knockback Scalar: 200%
+			}
+
+			Lúcio
+			{
+				Soundwave Knockback Scalar: 200%
+			}
+
+			Wrecking Ball
+			{
+				Grappling Claw Knockback Scalar: 200%
+				Minefield Knockback Scalar: 200%
+			}
+
+			enabled heroes
+			{
+				Ashe
+				Brigitte
+				Doomfist
+				Lúcio
+				Wrecking Ball
+			}
+		}
+	}
+}

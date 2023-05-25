@@ -1,0 +1,78 @@
+settings
+{
+	main
+	{
+		Mode Name: "Wacky Deathmatch"
+	}
+
+	modes
+	{
+		Assault
+		{
+			Limit Roles: 2 Of Each Role Per Team
+
+			enabled maps
+			{
+			}
+		}
+
+		Control
+		{
+			Limit Roles: 2 Of Each Role Per Team
+
+			enabled maps
+			{
+			}
+		}
+
+		Deathmatch
+		{
+			Game Length In Minutes: 15
+			Score To Win: 50
+
+			enabled maps
+			{
+				Black Forest 972777519512063901
+				Château Guillard 972777519512063901
+				Eichenwalde Halloween 972777519512063901
+				Hollywood Halloween 972777519512063901
+				Ilios Well 972777519512063901
+				Kanezaka 972777519512063901
+			}
+		}
+
+		Escort
+		{
+			Limit Roles: 2 Of Each Role Per Team
+
+			enabled maps
+			{
+			}
+		}
+
+		Hybrid
+		{
+			Limit Roles: 2 Of Each Role Per Team
+
+			enabled maps
+			{
+			}
+		}
+	}
+
+	heroes
+	{
+		Team FFA
+		{
+			Jump Vertical Speed: 110%
+			Movement Speed: 110%
+			Ultimate Duration: 200%
+		}
+
+		General
+		{
+			Ability Cooldown Time: 50%
+			Ultimate Generation: 200%
+		}
+	}
+}

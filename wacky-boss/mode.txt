@@ -1,0 +1,82 @@
+settings
+{
+	main
+	{
+		Mode Name: "Wacky Deathmatch"
+	}
+
+	modes
+	{
+		Assault
+		{
+			enabled maps
+			{
+			}
+		}
+
+		Control
+		{
+			enabled maps
+			{
+			}
+		}
+
+		disabled Deathmatch
+		{
+			Game Length In Minutes: 15
+			Score To Win: 50
+		}
+
+		Escort
+		{
+			enabled maps
+			{
+			}
+		}
+
+		Hybrid
+		{
+			enabled maps
+			{
+			}
+		}
+
+		Team Deathmatch
+		{
+			disabled maps
+			{
+				Horizon Lunar Colony
+				Ilios Well
+			}
+		}
+
+		General
+		{
+			Hero Limit: Off
+		}
+	}
+
+	heroes
+	{
+		Team 1
+		{
+			Ability Cooldown Time: 50%
+			Ultimate Generation: 200%
+		}
+
+		Team 2
+		{
+			Ability Cooldown Time: 140%
+			Ammunition Clip Size Scalar: 200%
+			Damage Dealt: 130%
+			Healing Dealt: 150%
+			Healing Received: 150%
+			Health: 400%
+			Jump Vertical Speed: 140%
+			Movement Gravity: 115%
+			Movement Speed: 90%
+			Projectile Gravity: 80%
+			Projectile Speed: 90%
+		}
+	}
+}
